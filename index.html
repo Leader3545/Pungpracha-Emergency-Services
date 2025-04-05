@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emergency HQ - หน้าหลัก</title>
+  
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- Global Navbar (ใช้ในทุกหน้า) -->
+  <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">ศูนย์ควบคุมเหตุฉุกเฉินปวงประชาซิตี้</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+              aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+         <ul class="navbar-nav">
+           <li class="nav-item"><a class="nav-link active" href="index.html">หน้าหลัก</a></li>
+           <li class="nav-item"><a class="nav-link" href="fire_department.html">Fire Dept.</a></li>
+           <li class="nav-item"><a class="nav-link" href="police_department.html">Police Dept.</a></li>
+           <li class="nav-item"><a class="nav-link" href="sheriff_department.html">Sheriff Dept.</a></li>
+           <li class="nav-item"><a class="nav-link" href="government.html">Government</a></li>
+           <li class="nav-item"><a class="nav-link" href="contact.html">ติดต่อเรา</a></li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section" data-aos="fade-in">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content text-center">
+      <h1 class="display-4">ศูนย์ควบคุมเหตุฉุกเฉินปวงประชาซิตี้</h1>
+      <p class="lead">หน่วยบริการประชาชนเร่งด่วน</p>
+    </div>
+  </header>
+  
+  <!-- Intro Section -->
+  <section class="intro-section container my-5" data-aos="fade-up">
+    <h2 class="section-title text-center">ข่าวสารต่างๆ</h2>
+    <div class="row g-4">
+      <div class="col-md-6" data-aos="fade-right">
+        <div class="card news-card">
+          <img src="assets/images/hero-bg.png" class="card-img-top" alt="ข่าว 1">
+          <div class="card-body">
+            <h5 class="card-title"><strong>การกลับมาของ ปวงประชาซิตี้!</strong></h5>
+            <p class="card-text">ปวงประชาซิตี้กำลังจะกลับมาเปิดให้บริการอีกครั้งในเร็วๆ นี้!.</p>
+          </div>
+        </div>
+      </div>
+   </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+     <div class="container text-center">
+        <p>© 2025 ปวงประชาซิตี้. All rights reserved.</p>
+     </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
